@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer'; 
+import Tictac  from './Tictac';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer dados={ {ano:2020, mes:12, dia:13}}/>
+      <Tictac/>
     </div>
   );
 }
